@@ -18,7 +18,7 @@ driving_time = 40
 while driving_time > 30: 
     driving_time = get_driving_time(work, home)
     print "\nCurrent driving time is: \t", int(driving_time), " mins"
-    time.sleep(60*.05) # the API limit is 2,500 per day, so be nice
+    time.sleep(60*5) # the API limit is 2,500 per day, so be nice
        
 os.system('say "Road is clear. It is time to go home!"')
 print('\a')
